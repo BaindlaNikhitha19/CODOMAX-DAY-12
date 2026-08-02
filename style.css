@@ -69,6 +69,7 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 button:hover {
@@ -213,6 +214,11 @@ section {
     animation: fadeIn 1.5s ease;
 }
 
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -224,3 +230,4 @@ section {
         transform: translateY(0);
     }
 }
+
